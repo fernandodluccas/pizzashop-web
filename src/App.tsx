@@ -1,9 +1,9 @@
+import { Button } from './components/ui/button';
+
 export function App() {
   return (
-    <div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    <div className="flex justify-center items-center h-screen">
+      <Button>Click me</Button>
     </div>
   );
 }
